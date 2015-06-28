@@ -1,0 +1,10 @@
+{
+"skeleton": { "hash": "PuZr8vUQc7THNVnIKZkvSQaTiGs", "spine": "2.1.18", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"animations": {
+	"animation": {},
+	"walk middle": {}
+}
+}

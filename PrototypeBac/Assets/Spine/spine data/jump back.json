@@ -1,0 +1,37 @@
+{
+"skeleton": { "hash": "XyoqSwxhc/QJaeXo+Lt2BxjLM+I", "spine": "2.1.18", "width": 0, "height": 0, "images": "./darian jump back images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "1a", "bone": "root", "attachment": "1a" }
+],
+"skins": {
+	"default": {
+		"1a": {
+			"1a": { "x": 87.49, "y": 1390.49, "width": 1477, "height": 2803 },
+			"2a": { "x": 87.49, "y": 1390.49, "width": 1211, "height": 2802 },
+			"3a": { "x": 87.49, "y": 1390.49, "width": 1305, "height": 2806 },
+			"4a": { "x": 87.49, "y": 1390.49, "width": 1583, "height": 2790 },
+			"5a": { "x": 21.49, "y": 1318.49, "width": 1562, "height": 2672 },
+			"6a": { "x": 87.49, "y": 1390.49, "width": 1476, "height": 2803 }
+		}
+	}
+},
+"animations": {
+	"animation": {},
+	"jump back": {
+		"slots": {
+			"1a": {
+				"attachment": [
+					{ "time": 0.1666, "name": "2a" },
+					{ "time": 0.3333, "name": "3a" },
+					{ "time": 0.6333, "name": "4a" },
+					{ "time": 0.8, "name": "5a" },
+					{ "time": 0.9666, "name": "6a" }
+				]
+			}
+		}
+	}
+}
+}

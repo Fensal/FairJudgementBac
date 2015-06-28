@@ -1,0 +1,52 @@
+{
+"skeleton": { "hash": "1J769lbvNRNl6le6ek6UJKmeEKc", "spine": "2.1.18", "width": 0, "height": 0, "images": "./darian walk images/" },
+"bones": [
+	{ "name": "root", "y": -11.86 }
+],
+"slots": [
+	{ "name": "0", "bone": "root", "attachment": "0" },
+	{ "name": "1", "bone": "root", "attachment": "1" }
+],
+"skins": {
+	"default": {
+		"0": {
+			"0": { "x": 82.5, "y": 1378.54, "width": 1477, "height": 2803 }
+		},
+		"1": {
+			"1": { "x": 15.3, "y": 1391, "width": 1121, "height": 2814 },
+			"2": { "x": -138.9, "y": 1391, "width": 1344, "height": 2822 },
+			"3": { "x": -297.06, "y": 1391, "width": 1113, "height": 2814 },
+			"4": { "x": -245.65, "y": 1391, "width": 1199, "height": 2780 },
+			"5": { "x": -24.23, "y": 1387.04, "width": 1045, "height": 2809 },
+			"6": { "x": -115.17, "y": 1406.81, "width": 1286, "height": 2807 },
+			"7": { "x": -146.8, "y": 1414.72, "width": 1344, "height": 2822 },
+			"8": { "x": -308.92, "y": 1391, "width": 1112, "height": 2812 },
+			"9": { "x": -269.38, "y": 1387.04, "width": 1198, "height": 2780 },
+			"10": { "x": -40.05, "y": 1391, "width": 1046, "height": 2809 },
+			"11": { "x": -12.37, "y": 1406.81, "width": 1120, "height": 2812 }
+		}
+	}
+},
+"animations": {
+	"light blow down": {},
+	"middle walking": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "time": 0, "name": "1" },
+					{ "time": 0.1666, "name": "2" },
+					{ "time": 0.3666, "name": "3" },
+					{ "time": 0.5333, "name": "4" },
+					{ "time": 0.7, "name": "5" },
+					{ "time": 0.9, "name": "6" },
+					{ "time": 1.0666, "name": "7" },
+					{ "time": 1.2333, "name": "8" },
+					{ "time": 1.4, "name": "9" },
+					{ "time": 1.6, "name": "10" },
+					{ "time": 1.7666, "name": "11" }
+				]
+			}
+		}
+	}
+}
+}
